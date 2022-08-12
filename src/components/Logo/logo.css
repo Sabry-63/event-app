@@ -1,0 +1,19 @@
+.logo__event {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 -1.4rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: contain;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    top: -80px;
+}
+
+.logo__event img {
+    max-width: 120px;
+    max-height: 120px;
+    width: 100%;
+}

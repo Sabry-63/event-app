@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+.speakers__app {
+    position: relative;
+    top: -30px;
+}
+
+.speakers__app__title {
+    font-size: 4rem;
+    color: gold;
+    font-family: 'Alumni Sans Inline One', cursive;
+    /* font-family: 'Oleo Script Swash Caps', cursive; */
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+    .speakers__app {
+        top: -30px;
+    }
+}
+
+.speakers__app__img {
+    height: 270px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .speakers__app__img {
+        height: 450px;
+    }
+}

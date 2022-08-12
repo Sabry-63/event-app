@@ -1,0 +1,9 @@
+.form__app {
+    top: -90px;
+}
+
+@media only screen and (max-width: 992px) {
+    .form__app {
+        top: -90px;
+    }
+}
